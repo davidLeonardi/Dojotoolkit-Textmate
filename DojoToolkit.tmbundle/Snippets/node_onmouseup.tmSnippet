@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.onmouseup(function() {
+    //do something when event is fired
+    ${1:}
+});
+
+$0</string>
+	<key>name</key>
+	<string>node.onmouseup</string>
+	<key>tabTrigger</key>
+	<string>.onmouseup</string>
+	<key>uuid</key>
+	<string>807D510D-2C2C-4183-951E-20B424099E4D</string>
+</dict>
+</plist>

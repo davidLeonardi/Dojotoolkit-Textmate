@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.removeAttr(${1:node}, ${2:propertystring});
+
+//	summary:
+//		Removes an attribute from an HTML element.
+//	node:
+//		id or reference to the element to remove the attribute from
+//	name:
+//		the name of the attribute to remove
+
+$0</string>
+	<key>name</key>
+	<string>dojo.removeattr (documentation)</string>
+	<key>tabTrigger</key>
+	<string>.removeattrdoc</string>
+	<key>uuid</key>
+	<string>72416829-C001-462A-93C1-6DC4424819A5</string>
+</dict>
+</plist>

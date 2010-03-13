@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.some(${1:callback}, ${2:thisObject});
+
+//Summary
+
+//Tests whether some element in the array passes the test implemented by the provided function.
+
+//Parameters
+
+//callback :    Function to test for each element.
+//thisObject :    Object to use as this when executing callback.
+
+//Description
+
+//some executes the callback function once for each element present in the array until it finds one where callback returns a true value. If such an element is found, some immediately returns true. Otherwise, some returns false. callback is invoked only for indexes of the array which have assigned values; it is not invoked for indexes which have been deleted or which have never been assigned values.
+
+//callback is invoked with three arguments: the value of the element, the index of the element, and the Array object being traversed.
+
+//If a thisObject parameter is provided to some, it will be used as the this for each invocation of the callback. If it is not provided, or is null, the global object associated with callback is used instead.
+
+//some does not mutate the array on which it is called.
+
+//The range of elements processed by some is set before the first invocation of callback. Elements that are appended to the array after the call to some begins will not be visited by callback. If an existing, unvisited element of the array is changed by callback, its value passed to the visiting callback will be the value at the time that some visits that element's index; elements that are deleted are not visited.
+
+$0</string>
+	<key>name</key>
+	<string>array.some (documentation)</string>
+	<key>tabTrigger</key>
+	<string>.somedoc</string>
+	<key>uuid</key>
+	<string>30A4FAA1-AC27-43E8-AD64-2260EADB53A4</string>
+</dict>
+</plist>

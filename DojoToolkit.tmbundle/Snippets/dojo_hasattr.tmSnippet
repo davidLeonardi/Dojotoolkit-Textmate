@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.hasAttr(${1:node}, ${2:name});
+
+$0</string>
+	<key>name</key>
+	<string>dojo.hasattr</string>
+	<key>tabTrigger</key>
+	<string>.hasattr</string>
+	<key>uuid</key>
+	<string>583C278E-5689-493D-93E4-06011E3B7127</string>
+</dict>
+</plist>

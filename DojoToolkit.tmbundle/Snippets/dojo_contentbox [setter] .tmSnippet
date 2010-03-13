@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.contentBox(${1:node}, {${2:l: 50, t: 200, w: 300: h: 150}});
+
+$0</string>
+	<key>name</key>
+	<string>dojo.contentbox [setter] </string>
+	<key>tabTrigger</key>
+	<string>.contentbox</string>
+	<key>uuid</key>
+	<string>E28803CA-7F1C-4A5A-BD6D-EED05779593D</string>
+</dict>
+</plist>

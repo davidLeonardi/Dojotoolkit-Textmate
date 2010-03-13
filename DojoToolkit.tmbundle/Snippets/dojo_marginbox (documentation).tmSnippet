@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.marginBox(${1:node}, ${2:box});
+
+//	summary:
+//		Getter/setter for the margin-box of node.
+//	description:
+//		Getter/setter for the margin-box of node.
+//		Returns an object in the expected format of box (regardless
+//		if box is passed). The object might look like:
+//			`{ l: 50, t: 200, w: 300: h: 150 }`
+//		for a node offset from its parent 50px to the left, 200px from
+//		the top with a margin width of 300px and a margin-height of
+//		150px.
+//	node:
+//		id or reference to DOM Node to get/set box for
+//	box:
+//		If passed, denotes that dojo.marginBox() should
+//		update/set the margin box for node. Box is an object in the
+//		above format. All properties are optional if passed.
+//	example:
+//	Retrieve the marginbox of a passed node
+//	|	var box = dojo.marginBox("someNodeId");
+//	|	console.dir(box);
+//
+//	example:
+//	Set a node's marginbox to the size of another node
+//	|	var box = dojo.marginBox("someNodeId");
+//	|	dojo.marginBox("someOtherNode", box);
+
+$0</string>
+	<key>name</key>
+	<string>dojo.marginbox (documentation)</string>
+	<key>tabTrigger</key>
+	<string>.marginboxdoc</string>
+	<key>uuid</key>
+	<string>C202D306-2AEA-4E12-A7DB-A95EC02175AA</string>
+</dict>
+</plist>

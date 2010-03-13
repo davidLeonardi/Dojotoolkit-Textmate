@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.filter(function(item){
+	// highlight every paragraph
+	return (item.${2:property} == "${3:value");
+	})
+
+$0</string>
+	<key>name</key>
+	<string>array.filter [JS filter]</string>
+	<key>tabTrigger</key>
+	<string>.filter</string>
+	<key>uuid</key>
+	<string>615A65CE-A5D3-4248-8CA3-32DAEABB0960</string>
+</dict>
+</plist>

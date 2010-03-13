@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>dojo.query("${1:selector}")$0</string>
+	<key>keyEquivalent</key>
+	<string>~q</string>
+	<key>name</key>
+	<string>Generic dojo.query</string>
+	<key>uuid</key>
+	<string>F92995CC-F1C1-4787-8A1B-9B956EDED72C</string>
+</dict>
+</plist>

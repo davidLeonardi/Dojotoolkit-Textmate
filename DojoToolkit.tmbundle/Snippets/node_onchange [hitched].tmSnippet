@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.onchange(function() {
+    //do something when event is fired
+    ${1:}
+}, ${2:scope});
+
+$0</string>
+	<key>name</key>
+	<string>node.onchange [hitched]</string>
+	<key>tabTrigger</key>
+	<string>.onchange</string>
+	<key>uuid</key>
+	<string>F87A0E9A-3D69-4103-9274-715A1C7A7FEC</string>
+</dict>
+</plist>

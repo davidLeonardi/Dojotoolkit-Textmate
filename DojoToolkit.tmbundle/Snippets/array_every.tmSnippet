@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.every(${1:callback});
+
+$0</string>
+	<key>name</key>
+	<string>array.every</string>
+	<key>tabTrigger</key>
+	<string>.every</string>
+	<key>uuid</key>
+	<string>30FD2096-FE27-4E9E-AB39-7BCD43EE1A35</string>
+</dict>
+</plist>

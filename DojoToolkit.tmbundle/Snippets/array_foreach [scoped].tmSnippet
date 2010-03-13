@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.forEach(${1:callback}, ${2:thisObj});
+
+$0</string>
+	<key>name</key>
+	<string>array.foreach [scoped]</string>
+	<key>tabTrigger</key>
+	<string>.foreach</string>
+	<key>uuid</key>
+	<string>98BFF903-36FE-4F25-8B41-08BCAC119567</string>
+</dict>
+</plist>

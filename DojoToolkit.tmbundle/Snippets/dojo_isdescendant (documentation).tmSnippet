@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.isDescendant(${1:node}, ${2:ancestor});
+
+//	summary:
+//		Returns true if node is a descendant of ancestor
+//	node: string id or node reference to test
+//	ancestor: string id or node reference of potential parent to test against
+//
+// example:
+//	Test is node id="bar" is a descendant of node id="foo"
+//	|	if(dojo.isDescendant("bar", "foo")){ ... }
+
+$0</string>
+	<key>name</key>
+	<string>dojo.isdescendant (documentation)</string>
+	<key>tabTrigger</key>
+	<string>.isdescendantdoc</string>
+	<key>uuid</key>
+	<string>5ABF3DA6-D880-450D-820E-090173B7FCBC</string>
+</dict>
+</plist>

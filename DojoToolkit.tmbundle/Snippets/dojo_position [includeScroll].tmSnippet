@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.position(${1:node}, true);
+
+$0
+</string>
+	<key>name</key>
+	<string>dojo.position [includeScroll]</string>
+	<key>tabTrigger</key>
+	<string>.position</string>
+	<key>uuid</key>
+	<string>48120AE8-317C-40C7-AFB7-FFD9BD3F994F</string>
+</dict>
+</plist>

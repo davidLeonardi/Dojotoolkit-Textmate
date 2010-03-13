@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.isDescendant(${1:node}, ${2:ancestor});
+
+$0
+</string>
+	<key>name</key>
+	<string>dojo.isdescendant</string>
+	<key>tabTrigger</key>
+	<string>.isdescendant</string>
+	<key>uuid</key>
+	<string>FF39729E-BA4A-4EF8-8148-E95904E070A2</string>
+</dict>
+</plist>

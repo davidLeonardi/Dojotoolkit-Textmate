@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.filter(${1:simpleFilter});
+
+//	summary:
+// 		"masks" the built-in javascript filter() method (supported
+// 		in Dojo via `dojo.filter`) to support passing a simple
+// 		string filter in addition to supporting filtering function
+// 		objects.
+//	simpleFilter:
+//		If a string, a single-expression CSS rule. For example,
+//		".thinger" or "#someId[attrName='value']" but not "div &gt;
+//		span". In short, anything which does not invoke a descent
+//		to evaluate but can instead be used to test a single node
+//		is acceptable.
+//	example:
+//		"regular" JS filter syntax as exposed in dojo.filter:
+//		|	dojo.query("*").filter(function(item){
+//		|		// highlight every paragraph
+//		|		return (item.nodeName == "p");
+//		|	}).style("backgroundColor", "yellow");
+// example:
+//		the same filtering using a CSS selector
+//		|	dojo.query("*").filter("p").styles("backgroundColor", "yellow");
+
+$0</string>
+	<key>name</key>
+	<string>array.filter (documentation)</string>
+	<key>tabTrigger</key>
+	<string>.filterdoc</string>
+	<key>uuid</key>
+	<string>258D7AA5-7682-46EE-8489-6E5DFF8CEBD8</string>
+</dict>
+</plist>

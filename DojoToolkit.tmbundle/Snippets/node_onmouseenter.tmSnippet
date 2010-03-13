@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.onmouseenter(function() {
+    //do something when event is fired
+    ${1:}
+});
+
+$0</string>
+	<key>name</key>
+	<string>node.onmouseenter</string>
+	<key>tabTrigger</key>
+	<string>.onmouseenter</string>
+	<key>uuid</key>
+	<string>F4CA7425-9C35-4626-81FE-6C3A964686F7</string>
+</dict>
+</plist>

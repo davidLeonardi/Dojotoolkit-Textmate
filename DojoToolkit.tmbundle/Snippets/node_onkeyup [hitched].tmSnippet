@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.onkeyup(function() {
+    //do something when event is fired
+    ${1:}
+}, ${2:scope});
+
+$0</string>
+	<key>name</key>
+	<string>node.onkeyup [hitched]</string>
+	<key>tabTrigger</key>
+	<string>.onkeyup</string>
+	<key>uuid</key>
+	<string>C33D676B-DE9F-4C31-A557-912D4E88260D</string>
+</dict>
+</plist>

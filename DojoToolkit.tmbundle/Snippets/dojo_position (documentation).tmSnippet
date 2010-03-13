@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.position(${1:node}, ${2:boolean});
+
+//	summary:
+//		Gets the position and size of the passed element relative to
+//		the viewport (if includeScroll==false), or relative to the
+//		document root (if includeScroll==true).
+//
+//	description:
+//		Returns an object of the form:
+//			{ x: 100, y: 300, w: 20, h: 15 }
+//		If includeScroll==true, the x and y values will include any
+//		document offsets that may affect the position relative to the
+//		viewport.
+//		Uses the border-box model (inclusive of border and padding but
+//		not margin).  Does not act as a setter.
+
+$0</string>
+	<key>name</key>
+	<string>dojo.position (documentation)</string>
+	<key>tabTrigger</key>
+	<string>.positiondoc</string>
+	<key>uuid</key>
+	<string>DE0CCF62-F89D-40F9-82E7-18BA989B6C34</string>
+</dict>
+</plist>

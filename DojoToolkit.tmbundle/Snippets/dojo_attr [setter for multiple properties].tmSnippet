@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.attr("${1:node}", {
+	"${2:foo}": "${3:bar}",
+	"${4:brown}": "${5:fox}",
+	"${6:bah}": "${7:baz}"
+	};	
+</string>
+	<key>name</key>
+	<string>dojo.attr [setter for multiple properties]</string>
+	<key>tabTrigger</key>
+	<string>.attr</string>
+	<key>uuid</key>
+	<string>3FE7282A-F5C2-4349-84FC-5EB14202A72E</string>
+</dict>
+</plist>

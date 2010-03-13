@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.forEach(${1:callback}, ${2:thisObj});
+
+//	summary:
+//		see `dojo.forEach()`. The primary difference is that the acted-on 
+//		array is implicitly this NodeList. If you want the option to break out
+//		of the forEach loop, use every() or some() instead.
+
+$0</string>
+	<key>name</key>
+	<string>array.foreach (documentation)</string>
+	<key>tabTrigger</key>
+	<string>.foreachdoc</string>
+	<key>uuid</key>
+	<string>76750A57-C57F-4101-B676-317E492EC313</string>
+</dict>
+</plist>

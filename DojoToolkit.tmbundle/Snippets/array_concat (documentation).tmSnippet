@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.concat(${1:item});
+
+// summary:
+//		Returns a new NodeList comprised of items in this NodeList
+//		as well as items passed in as parameters
+// description:
+//		This method behaves exactly like the Array.concat method
+//		with the caveat that it returns a `dojo.NodeList` and not a
+//		raw Array. For more details, see the (Array.concat
+//		docs)[http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Reference:Global_Objects:Array:concat]
+// item: Object?
+//		Any number of optional parameters may be passed in to be
+//		spliced into the NodeList
+// returns:
+//		dojo.NodeList
+//return this._wrap(apc.apply(this, arguments));
+// the line above won't work for the native NodeList :-(
+// implementation notes:
+// 1) Native NodeList is not an array, and cannot be used directly
+// in concat() --- the latter doesn't recognize it as an array, and
+// does not inline it, but append as a single entity.
+// 2) On some browsers (e.g., Safari) the "constructor" property is
+// read-only and cannot be changed. So we have to test for both
+// native NodeList and dojo.NodeList in this property to recognize
+// the node list.
+
+$0</string>
+	<key>name</key>
+	<string>array.concat (documentation)</string>
+	<key>tabTrigger</key>
+	<string>.concatdoc</string>
+	<key>uuid</key>
+	<string>90A936EA-B342-48BE-8F38-71E74A4E5FDA</string>
+</dict>
+</plist>

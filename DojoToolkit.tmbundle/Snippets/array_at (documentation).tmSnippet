@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.at(${1:index})
+
+//	summary:
+//		Returns a new NodeList comprised of items in this NodeList
+//		at the given index or indices.
+//	index: Integer...
+//		One or more 0-based indices of items in the current
+//		NodeList.
+//	returns:
+//		dojo.NodeList
+
+$0</string>
+	<key>name</key>
+	<string>array.at (documentation)</string>
+	<key>tabTrigger</key>
+	<string>.atdoc</string>
+	<key>uuid</key>
+	<string>C7E13A1D-8592-4C3B-BCC5-F7A696982325</string>
+</dict>
+</plist>

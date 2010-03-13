@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.contentBox(${1:node}, ${2:box});
+
+//	summary:
+//		Getter/setter for the content-box of node.
+//	description:
+//		Returns an object in the expected format of box (regardless if box is passed).
+//		The object might look like:
+//			`{ l: 50, t: 200, w: 300: h: 150 }`
+//		for a node offset from its parent 50px to the left, 200px from
+//		the top with a content width of 300px and a content-height of
+//		150px. Note that the content box may have a much larger border
+//		or margin box, depending on the box model currently in use and
+//		CSS values set/inherited for node.
+//	node:
+//		id or reference to DOM Node to get/set box for
+//	box:
+//		If passed, denotes that dojo.contentBox() should
+//		update/set the content box for node. Box is an object in the
+//		above format. All properties are optional if passed.
+
+$0</string>
+	<key>name</key>
+	<string>dojo.contentbox (documentation)</string>
+	<key>tabTrigger</key>
+	<string>.contentboxdoc</string>
+	<key>uuid</key>
+	<string>A76470B6-446C-44C9-9FCD-F042C5287A2D</string>
+</dict>
+</plist>

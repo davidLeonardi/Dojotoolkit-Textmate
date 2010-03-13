@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>dojo.byId("${1:nodeID}")$0 </string>
+	<key>keyEquivalent</key>
+	<string>~i</string>
+	<key>name</key>
+	<string>Generic dojo.byID</string>
+	<key>uuid</key>
+	<string>BCAE8892-0810-4BB9-83C3-3D923A924387</string>
+</dict>
+</plist>

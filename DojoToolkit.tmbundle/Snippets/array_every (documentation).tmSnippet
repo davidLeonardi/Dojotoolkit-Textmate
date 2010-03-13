@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.every(${1:callback}, ${2:thisObject});
+
+//Summary
+//Tests whether all elements in the array pass the test implemented by the provided function.
+
+//Parameters
+
+//callback:    Function to test for each element.
+//thisObject:    Object to use as this when executing callback. 
+
+//Description
+//every executes the provided callback function once for each element present in the array until it finds one where callback returns a false value. If such an element is found, the every method immediately returns false. Otherwise, if callback returned a true value for all elements, every will return true. callback  is invoked only for indexes of the array which have assigned values; it is not invoked for indexes which have been deleted or which have never been assigned values.
+
+//callback is invoked with three arguments: the value of the element, the index of the element, and the Array object being traversed.
+
+//If a thisObject parameter is provided to every, it will be used as the this for each invocation of the callback. If it is not provided, or is null, the global object associated with callback is used instead.
+
+//every does not mutate the array on which it is called.
+
+//The range of elements processed by every is set before the first invocation of callback. Elements which are appended to the array after the call to every begins will not be visited by callback. If existing elements of the array are changed, their value as passed to callback will be the value at the time every visits them; elements that are deleted are not visited.
+
+//every acts like the "for all" quantifier in mathematics. In particular, for an empty array, it returns true. (It is vacuously true that all elements of the empty set satisfy any given condition.)
+
+$0</string>
+	<key>name</key>
+	<string>array.every (documentation)</string>
+	<key>tabTrigger</key>
+	<string>.everydoc</string>
+	<key>uuid</key>
+	<string>6E6D9ED2-044D-40ED-8C35-2BD223EA7557</string>
+</dict>
+</plist>
