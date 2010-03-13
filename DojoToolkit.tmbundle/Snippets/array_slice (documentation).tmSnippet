@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.slice(${1:begin}, ${2:end});
+
+// array.slice(start, end);
+
+//The slice() method selects a part of an array, and returns the new array.
+//Note: The original array will not be changed.
+
+
+//start : 	Required. An integer that specifies where to start the selection (The first element has an index of 0). You can also use negative numbers to select from the end of an array
+
+//end :	Optional. An integer that specifies where to end the selection. If omitted, slice() selects all elements from the start position and to the end of the array
+
+$0</string>
+	<key>name</key>
+	<string>array.slice (documentation)</string>
+	<key>tabTrigger</key>
+	<string>.slicedoc</string>
+	<key>uuid</key>
+	<string>2E3727A6-F55B-4B62-A058-A6439AF20CF6</string>
+</dict>
+</plist>

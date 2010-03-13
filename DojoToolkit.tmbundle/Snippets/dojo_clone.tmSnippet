@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.clone(${1:object})${3:;}
+
+$0
+</string>
+	<key>name</key>
+	<string>dojo.clone</string>
+	<key>tabTrigger</key>
+	<string>clone</string>
+	<key>uuid</key>
+	<string>7ACEE923-3239-44BF-A143-A6B3EB56E136</string>
+</dict>
+</plist>

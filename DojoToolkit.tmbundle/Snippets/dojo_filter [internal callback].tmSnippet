@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.filter(${1:array}, function(item){ return item &gt; ${2:condition}; });
+
+$0
+</string>
+	<key>name</key>
+	<string>dojo.filter [internal callback]</string>
+	<key>tabTrigger</key>
+	<string>.filter</string>
+	<key>uuid</key>
+	<string>2F52A710-DDEA-4C11-ABA8-D42355A4C1E2</string>
+</dict>
+</plist>

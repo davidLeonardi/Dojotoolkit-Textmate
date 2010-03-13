@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.moduleUrl("${1:module.namespace.path}", "${2:file.html}")$0</string>
+	<key>name</key>
+	<string>dojo.moduleUrl</string>
+	<key>tabTrigger</key>
+	<string>.moduleurl</string>
+	<key>uuid</key>
+	<string>269AD8E8-CAA2-4A49-898F-01A66D40F75E</string>
+</dict>
+</plist>

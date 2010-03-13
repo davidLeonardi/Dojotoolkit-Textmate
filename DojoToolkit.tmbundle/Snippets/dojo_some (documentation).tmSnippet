@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.lastIndexOf("${1:array}", "${2:callback}", "$3:thisObject}");
+
+
+$0
+
+	// summary:
+	//		Determines whether or not any item in arr satisfies the
+	//		condition implemented by callback.
+	// arr:
+	//		the array to iterate over. If a string, operates on individual characters.
+	// callback:
+	//		a function is invoked with three arguments: item, index,
+	//		and array and returns true if the condition is met.
+	// thisObject:
+	//		may be used to scope the call to callback
+	// description:
+	//		This function corresponds to the JavaScript 1.6 Array.some() method, with one difference: when 
+	//		run over sparse arrays, this implemenation passes the "holes" in the sparse array to
+	//		the callback function with a value of undefined. JavaScript 1.6's some skips the holes in the sparse array.
+	//		For more details, see:
+	//			https://developer.mozilla.org/en/Core_JavaScript_1.5_Reference/Objects/Array/some
+	// example:
+	//	|	// is true
+	//	|	dojo.some([1, 2, 3, 4], function(item){ return item&gt;1; });
+	// example:
+	//	|	// is false
+	//	|	dojo.some([1, 2, 3, 4], function(item){ return item&lt;1; });</string>
+	<key>name</key>
+	<string>dojo.some (documentation)</string>
+	<key>tabTrigger</key>
+	<string>.somedoc</string>
+	<key>uuid</key>
+	<string>05FB7A40-00C5-47A4-8E61-32A186E854DB</string>
+</dict>
+</plist>

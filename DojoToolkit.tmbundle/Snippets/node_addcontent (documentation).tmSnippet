@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.addContent(${1:content}, ${2:position})
+
+//	summary:
+//		add a node, NodeList or some HTML as a string to every item in the
+//		list.  Returns the original list.
+//	description:
+//		a copy of the HTML content is added to each item in the
+//		list, with an optional position argument. If no position
+//		argument is provided, the content is appended to the end of
+//		each item.
+//	content:
+//		DOM node, HTML in string format, a NodeList or an Object. If a DOM node or
+// 		NodeList, the content will be cloned if the current NodeList has more than one
+// 		element. Only the DOM nodes are cloned, no event handlers. If it is an Object,
+// 		it should be an object with at "template" String property that has the HTML string
+// 		to insert. If dojo.string has already been dojo.required, then dojo.string.substitute
+// 		will be used on the "template" to generate the final HTML string. Other allowed
+// 		properties on the object are: "parse" if the HTML
+// 		string should be parsed for widgets (dojo.require("dojo.parser") to get that
+// 		option to work), and "templateFunc" if a template function besides dojo.string.substitute
+// 		should be used to transform the "template".
+//	position:
+//		can be one of:
+//		|	"last"||"end" (default)
+//		|	"first||"start"
+//		|	"before"
+//		|	"after"
+//		|	"replace" (replaces nodes in this NodeList with new content)
+//		|	"only" (removes other children of the nodes so new content is hte only child)
+// 		or an offset in the childNodes property
+//	example:
+//		appends content to the end if the position is ommitted
+//	|	dojo.query("h3 &gt; p").addContent("hey there!");
+//	example:
+//		add something to the front of each element that has a
+//		"thinger" property:
+//	|	dojo.query("[thinger]").addContent("...", "first");
+//	example:
+//		adds a header before each element of the list
+//	|	dojo.query(".note").addContent("&lt;h4&gt;NOTE:&lt;/h4&gt;", "before");
+//	example:
+//		add a clone of a DOM node to the end of every element in
+//		the list, removing it from its existing parent.
+//	|	dojo.query(".note").addContent(dojo.byId("foo"));
+//  example:
+//  	Append nodes from a templatized string.
+// 		dojo.require("dojo.string");
+// 		dojo.query(".note").addContent({
+//  		template: '&lt;b&gt;${id}: &lt;/b&gt;&lt;span&gt;${name}&lt;/span&gt;',
+// 			id: "user332",
+//  		name: "Mr. Anderson"
+//  	});
+//  example:
+//  	Append nodes from a templatized string that also has widgets parsed.
+//  	dojo.require("dojo.string");
+//  	dojo.require("dojo.parser");
+//  	var notes = dojo.query(".note").addContent({
+//  		template: '&lt;button dojoType="dijit.form.Button"&gt;${text}&lt;/button&gt;',
+//  		parse: true,
+//  		text: "Send"
+//  	});
+
+
+$0</string>
+	<key>name</key>
+	<string>node.addcontent (documentation)</string>
+	<key>tabTrigger</key>
+	<string>.addcontentdoc</string>
+	<key>uuid</key>
+	<string>81B55FE0-7E62-4733-953C-7424DE437EC2</string>
+</dict>
+</plist>

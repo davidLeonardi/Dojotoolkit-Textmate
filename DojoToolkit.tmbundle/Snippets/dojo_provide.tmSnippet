@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.provide("${1:namespace.module.path}");
+$0</string>
+	<key>name</key>
+	<string>dojo.provide</string>
+	<key>tabTrigger</key>
+	<string>.provide</string>
+	<key>uuid</key>
+	<string>3F14E452-0DE9-4029-AB58-5E6CED173E37</string>
+</dict>
+</plist>

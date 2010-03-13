@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.splice(${1:index}, ${2:howmany}, ${3:element1}, ${4:element2});
+
+//array.splice(index,howmany,element1,.....,elementX)
+
+//The splice() method adds and/or removes elements to/from an array, and returns the removed element(s).
+
+//Note: This method changes the original array!
+
+
+//index :  	Required. An integer that specifies at what position to add/remove elements
+//howmany : 	Required. The number of elements to be removed. If set to 0, no elements will be removed
+//element1, ..., elementX :	Optional. The new element(s) to be added to the array
+
+$0
+</string>
+	<key>name</key>
+	<string>array.splice (documentation)</string>
+	<key>tabTrigger</key>
+	<string>.splicedoc</string>
+	<key>uuid</key>
+	<string>04A637FC-7FAA-47B8-B982-179F9545B6A0</string>
+</dict>
+</plist>

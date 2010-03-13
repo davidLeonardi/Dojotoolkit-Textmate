@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.orphan(${1:simpleFilter})
+
+$0</string>
+	<key>name</key>
+	<string>node.orphan</string>
+	<key>tabTrigger</key>
+	<string>.orphan</string>
+	<key>uuid</key>
+	<string>6CF93C0B-2734-4117-96A8-D2F9061311A2</string>
+</dict>
+</plist>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.forEach(${1:things}, function(item${3:, index${2:, array}}){
+	$0
+});
+
+	//	summary:
+	//		for every item in arr, callback is invoked. Return values are ignored.
+	//		If you want to break out of the loop, consider using dojo.every() or dojo.some().
+	//		forEach does not allow breaking out of the loop over the items in arr.
+	//	arr:
+	//		the array to iterate over. If a string, operates on individual characters.
+	//	callback:
+	//		a function is invoked with three arguments: item, index, and array
+	//	thisObject:
+	//		may be used to scope the call to callback
+	//	description:
+	//		This function corresponds to the JavaScript 1.6 Array.forEach() method, with one difference: when 
+	//		run over sparse arrays, this implemenation passes the "holes" in the sparse array to
+	//		the callback function with a value of undefined. JavaScript 1.6's forEach skips the holes in the sparse array.
+	//		For more details, see:
+	//			https://developer.mozilla.org/en/Core_JavaScript_1.5_Reference/Objects/Array/forEach
+	//	example:
+	//	|	// log out all members of the array:
+	//	|	dojo.forEach(
+	//	|		[ "thinger", "blah", "howdy", 10 ],
+	//	|		function(item){
+	//	|			console.log(item);
+	//	|		}
+	//	|	);
+	//	example:
+	//	|	// log out the members and their indexes
+	//	|	dojo.forEach(
+	//	|		[ "thinger", "blah", "howdy", 10 ],
+	//	|		function(item, idx, arr){
+	//	|			console.log(item, "at index:", idx);
+	//	|		}
+	//	|	);
+	//	example:
+	//	|	// use a scoped object member as the callback
+	//	|	
+	//	|	var obj = {
+	//	|		prefix: "logged via obj.callback:", 
+	//	|		callback: function(item){
+	//	|			console.log(this.prefix, item);
+	//	|		}
+	//	|	};
+	//	|	
+	//	|	// specifying the scope function executes the callback in that scope
+	//	|	dojo.forEach(
+	//	|		[ "thinger", "blah", "howdy", 10 ],
+	//	|		obj.callback,
+	//	|		obj
+	//	|	);
+	//	|	
+	//	|	// alternately, we can accomplish the same thing with dojo.hitch()
+	//	|	dojo.forEach(
+	//	|		[ "thinger", "blah", "howdy", 10 ],
+	//	|		dojo.hitch(obj, "callback")
+	//	|	);</string>
+	<key>name</key>
+	<string>dojo.foreach (documentation)</string>
+	<key>tabTrigger</key>
+	<string>.foreachdoc</string>
+	<key>uuid</key>
+	<string>E377CD12-F2CA-4814-84B9-EDF1DAE9A878</string>
+</dict>
+</plist>

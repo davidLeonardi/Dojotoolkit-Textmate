@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.query(${1:queryStr})
+
+//	summary:
+//		Returns a new list whose memebers match the passed query,
+//		assuming elements of the current NodeList as the root for
+//		each search.
+//	example:
+//		assume a DOM created by this markup:
+//	|	&lt;div id="foo"&gt;
+//	|		&lt;p&gt;
+//	|			bacon is tasty, &lt;span&gt;dontcha think?&lt;/span&gt;
+//	|		&lt;/p&gt;
+//	|	&lt;/div&gt;
+//	|	&lt;div id="bar"&gt;
+//	|		&lt;p&gt;great commedians may not be funny &lt;span&gt;in person&lt;/span&gt;&lt;/p&gt;
+//	|	&lt;/div&gt;
+//		If we are presented with the following defintion for a NodeList:
+//	|	var l = new dojo.NodeList(dojo.byId("foo"), dojo.byId("bar"));
+//		it's possible to find all span elements under paragraphs
+//		contained by these elements with this sub-query:
+//	| 	var spans = l.query("p span");
+
+
+$0</string>
+	<key>name</key>
+	<string>node.query (documentation)</string>
+	<key>tabTrigger</key>
+	<string>.querydoc</string>
+	<key>uuid</key>
+	<string>7F11297F-EDA4-4A06-AFB3-94DB37DE15A7</string>
+</dict>
+</plist>

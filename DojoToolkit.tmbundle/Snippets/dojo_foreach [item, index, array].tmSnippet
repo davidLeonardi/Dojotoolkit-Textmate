@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.forEach(
+	${1:array},
+	function(item, idx, arr){
+	$0	
+	}
+);
+
+
+	</string>
+	<key>name</key>
+	<string>dojo.foreach [item, index, array]</string>
+	<key>tabTrigger</key>
+	<string>.foreach</string>
+	<key>uuid</key>
+	<string>3EA64597-D544-471F-85E8-BCEFA5081888</string>
+</dict>
+</plist>

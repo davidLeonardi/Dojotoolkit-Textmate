@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.indexOf(${1:searchElement}, fromIndex);
+
+//Returns the first index at which a given element can be found in the array, or -1 if it is not present.
+
+//indexOf compares searchElement to elements of the Array using strict equality (the same method used by the ===, or triple-equals, operator).
+
+//var index = array.indexOf(searchElement[, fromIndex]);
+
+
+//searchElement :    Element to locate in the array.
+//fromIndex :    The index at which to begin the search. Defaults to 0, i.e. the whole array will be searched. If the index is greater than or equal to the length of the array, -1 is returned, i.e. the array will not be searched. If negative, it is taken as the offset from the end of the array. Note that even when the index is negative, the array is still searched from front to back. If the calculated index is less than 0, the whole array will be searched. 
+
+//Compatibility
+
+//indexOf is a recent addition to the ECMA-262 standard; as such it may not be present in all browsers. You can work around this by inserting the following code at the beginning of your scripts, allowing use of indexOf in implementations which do not natively support it. This algorithm is exactly the one used in Firefox and SpiderMonkey.
+
+/*
+if (!Array.prototype.indexOf)
+{
+  Array.prototype.indexOf = function(elt /*, from*/)
+  {
+    var len = this.length &gt;&gt;&gt; 0;
+
+    var from = Number(arguments[1]) || 0;
+    from = (from &lt; 0)
+         ? Math.ceil(from)
+         : Math.floor(from);
+    if (from &lt; 0)
+      from += len;
+
+    for (; from &lt; len; from++)
+    {
+      if (from in this &amp;&amp;
+          this[from] === elt)
+        return from;
+    }
+    return -1;
+  };
+}
+*/
+
+//Again, note that this implementation aims for absolute compatibility with indexOf in Firefox and the SpiderMonkey JavaScript engine, including in cases where the index passed to indexOf  is not an integer value. If you intend to use this in real-world applications, you may not need all of the code to calculate from.
+
+//The following example uses indexOf to locate values in an array.
+/*
+var array = [2, 5, 9];
+var index = array.indexOf(2);
+// index is 0
+index = array.indexOf(7);
+// index is -1
+*/
+
+//The following example uses indexOf to find all the indices of an element in a given array, using push  to add them to another array as they are found.
+
+/*
+var indices = [];
+var idx = array.indexOf(element);
+while (idx != -1)
+{
+  indices.push(idx);
+  idx = array.indexOf(element, idx + 1);
+}
+*/
+
+$0
+</string>
+	<key>name</key>
+	<string>array.indexof (documentation)</string>
+	<key>tabTrigger</key>
+	<string>.indexofdoc</string>
+	<key>uuid</key>
+	<string>FD20C157-27D6-4678-A391-C251993822A0</string>
+</dict>
+</plist>

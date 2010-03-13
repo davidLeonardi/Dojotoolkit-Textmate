@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.orphan(${1:simpleFilter})
+
+//	summary:
+//		removes elements in this list that match the simple filter
+//		from their parents and returns them as a new NodeList.
+//	simpleFilter:
+//		single-expression CSS rule. For example, ".thinger" or
+//		"#someId[attrName='value']" but not "div &gt; span". In short,
+//		anything which does not invoke a descent to evaluate but
+//		can instead be used to test a single node is acceptable.
+//	returns:
+//		`dojo.NodeList` containing the orpahned elements 
+
+$0</string>
+	<key>name</key>
+	<string>node.orphan (documentation)</string>
+	<key>tabTrigger</key>
+	<string>.orphandoc</string>
+	<key>uuid</key>
+	<string>A5059890-34B2-4A0B-8F25-3AE77ED10C96</string>
+</dict>
+</plist>

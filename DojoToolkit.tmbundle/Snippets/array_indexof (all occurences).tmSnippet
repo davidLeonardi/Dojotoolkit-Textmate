@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>// var ${10:indices} = [];  
+ var ${1:idx} = ${6:array}.indexOf(${8:element});  
+ while (${2:idx} != -1)  
+ {  
+   ${11:indices}.push(${3:idx});  
+   ${4:idx} = ${7:array}.indexOf(${9:element}, ${5:idx} + 1);  
+ }  
+$0</string>
+	<key>name</key>
+	<string>array.indexof (all occurences)</string>
+	<key>tabTrigger</key>
+	<string>.indexof</string>
+	<key>uuid</key>
+	<string>A0AB8BC2-F94F-48A9-A390-657DB7C6BEFB</string>
+</dict>
+</plist>

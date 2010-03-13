@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.splice(${1:index}, ${2:howmany}, 
+	${3:element1}, 
+	${4:element2}, 
+	${5:element3}
+);
+
+$0
+</string>
+	<key>name</key>
+	<string>array.splice [elements]</string>
+	<key>tabTrigger</key>
+	<string>.splice</string>
+	<key>uuid</key>
+	<string>689E7849-007B-4C9F-B59C-13EE6971DC8C</string>
+</dict>
+</plist>

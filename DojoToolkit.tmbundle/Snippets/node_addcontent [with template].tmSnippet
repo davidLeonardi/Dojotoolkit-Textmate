@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.addContent({
+template: '&lt;${1:span}&gt;\${${3:content_var}}&lt;${2:span}&gt;',
+${4:content_var}: "${5:content}",
+});
+
+//dojo.require("dojo.string"); /* IF NOT PRESENT, ADD THIS! */
+</string>
+	<key>name</key>
+	<string>node.addcontent [with template]</string>
+	<key>tabTrigger</key>
+	<string>.addcontent</string>
+	<key>uuid</key>
+	<string>7876D015-E673-42DB-B895-B17D49708AC3</string>
+</dict>
+</plist>

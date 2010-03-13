@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>for(var ${2:i}=0, ${3:${1/^(.*).$/$1/}}; $3=${1:things}[$2]; $2++){
+	$0
+}</string>
+	<key>name</key>
+	<string>for (all items truthy)</string>
+	<key>scope</key>
+	<string>source.js.dojo</string>
+	<key>tabTrigger</key>
+	<string>for</string>
+	<key>uuid</key>
+	<string>0095F6AB-3372-4E37-A041-6C266DC3555A</string>
+</dict>
+</plist>

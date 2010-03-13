@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.query("${1:div .span}", ${3:"${2:node}"})${4:.}$0</string>
+	<key>name</key>
+	<string>dojo.query [with reference]</string>
+	<key>tabTrigger</key>
+	<string>.query</string>
+	<key>uuid</key>
+	<string>F6CE3777-5FB8-4A1A-8746-4B92921A84E2</string>
+</dict>
+</plist>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.lastIndexOf("${1:array}", "${2:callback}", "$3:thisObject}");
+
+	// summary:
+	//		applies callback to each element of arr and returns
+	//		an Array with the results
+	// arr:
+	//		the array to iterate on. If a string, operates on
+	//		individual characters.
+	// callback:
+	//		a function is invoked with three arguments, (item, index,
+	//		array),  and returns a value
+	// thisObject:
+	//		may be used to scope the call to callback
+	// description:
+	//		This function corresponds to the JavaScript 1.6 Array.map() method, with one difference: when 
+	//		run over sparse arrays, this implemenation passes the "holes" in the sparse array to
+	//		the callback function with a value of undefined. JavaScript 1.6's map skips the holes in the sparse array.
+	//		For more details, see:
+	//			https://developer.mozilla.org/en/Core_JavaScript_1.5_Reference/Objects/Array/map
+	// example:
+	//	|	// returns [2, 3, 4, 5]
+	//	|	dojo.map([1, 2, 3, 4], function(item){ return item+1 });
+
+$0</string>
+	<key>name</key>
+	<string>dojo.map (documentation)</string>
+	<key>tabTrigger</key>
+	<string>.mapdoc</string>
+	<key>uuid</key>
+	<string>437DE43C-10A3-4153-AAFA-8171EEE8E768</string>
+</dict>
+</plist>

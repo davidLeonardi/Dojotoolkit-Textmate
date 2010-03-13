@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.create("${1:tag}", "${2:attrs}", "${3:refNode}", "${4:pos}");
+
+//		Create an element, allowing for optional attribute decoration
+//		and placement.
+
+// tag: String|DomNode
+//		A string of the element to create (eg: "div", "a", "p", "li", "script", "br"),
+//		or an existing DOM node to process.
+//
+// attrs: Object
+//		An object-hash of attributes to set on the newly created node.
+//		Can be null, if you don't want to set any attributes/styles.
+//		See: `dojo.attr` for a description of available attributes.
+// refNode: String?|DomNode?
+//		Optional reference node. Used by "dojo.place" to place the newly created
+//		node somewhere in the dom relative to refNode. Can be a DomNode reference
+//		or String ID of a node.
+//
+// pos: String?
+//		Optional positional reference. Defaults to "last" by way of `dojo.place`,
+//		though can be set to "first","after","before","last", "replace" or "only"
+//		to further control the placement of the new node relative to the refNode.
+//		'refNode' is required if a 'pos' is specified.
+
+$0</string>
+	<key>name</key>
+	<string>dojo.create (documentation)</string>
+	<key>tabTrigger</key>
+	<string>.create</string>
+	<key>uuid</key>
+	<string>19DFCD52-DFCF-4875-8919-3445DC5FA881</string>
+</dict>
+</plist>

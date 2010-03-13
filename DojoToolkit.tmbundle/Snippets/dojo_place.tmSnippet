@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.place("${1:node}", "${2:refNode}", "${3:position}");
+
+$0 </string>
+	<key>name</key>
+	<string>dojo.place</string>
+	<key>tabTrigger</key>
+	<string>.place</string>
+	<key>uuid</key>
+	<string>5D7775DF-728F-420E-8FD8-55AA8B3362D6</string>
+</dict>
+</plist>

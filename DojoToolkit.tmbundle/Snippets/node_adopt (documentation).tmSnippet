@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.adopt(${1:queryOrListOrNode}, ${2:position})
+
+//	summary:
+//		places any/all elements in queryOrListOrNode at a
+//		position relative to the first element in this list.
+//		Returns a dojo.NodeList of the adopted elements.
+//	queryOrListOrNode:
+//		a DOM node or a query string or a query result.
+//		Represents the nodes to be adopted relative to the
+//		first element of this NodeList.
+//	position:
+//		can be one of:
+//		|	"last" (default)
+//		|	"first"
+//		|	"before"
+//		|	"after"
+//		|	"only"
+//		|	"replace"
+// 		or an offset in the childNodes property
+
+$0
+</string>
+	<key>name</key>
+	<string>node.adopt (documentation)</string>
+	<key>tabTrigger</key>
+	<string>.adoptdoc</string>
+	<key>uuid</key>
+	<string>55E4CE4A-D15C-4CE0-8965-28703B6D6F13</string>
+</dict>
+</plist>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.lastIndexOf("${1:array}", "${2:value}", "$3:fromIndex}");
+
+
+$0</string>
+	<key>name</key>
+	<string>dojo.lastindexof</string>
+	<key>tabTrigger</key>
+	<string>.lastindexof</string>
+	<key>uuid</key>
+	<string>59EF3337-245D-4670-89E9-E3897462C4EA</string>
+</dict>
+</plist>
