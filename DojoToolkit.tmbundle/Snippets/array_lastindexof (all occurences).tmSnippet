@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>//var ${10:indices} = [];
-var ${1:idx} = ${6:array}.lastIndexOf(${8:element});
-while (${2:idx} != -1)
+	<string>//var ${4:indices} = [];
+var ${1:idx} = ${2:array}.lastIndexOf(${3:element});
+while (${1:} != -1)
 {
-  ${11:indices}.push(${3:idx});
-  ${3:idx} = (${4:idx} &gt; 0 ? ${7:array}.lastIndexOf(${9:element}, ${5:idx} - 1) : -1);
+  ${4:indices}.push(${3:idx});
+  ${1:} = (${1:} &gt; 0 ? ${2:}.lastIndexOf(${3:}, ${1:} - 1) : -1);
 }
 </string>
 	<key>name</key>

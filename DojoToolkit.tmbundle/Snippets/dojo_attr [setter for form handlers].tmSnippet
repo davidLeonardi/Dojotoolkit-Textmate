@@ -4,7 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>.attr("${1:formId}", {
-	"method": "${3:POST}",
+	"method": "${2:POST}",
 	"onsubmit": function(e){
 		// stop submitting the form. Note that the IE behavior
 		// of returning true or false will have no effect here
@@ -15,15 +15,15 @@
 		dojo.stopEvent(e);	
 
 		// submit the form with Ajax
-		dojo.xhrPost({form: "${2:formId}", 
+		dojo.xhrPost({form: "${1:}", 
 			load: function() {
 				//do something on successful post
-				${4:}
+				${3:}
 				},
 			error: function(error) {
 				//do somethig else on an error
 				//console.log('Error: ', error);
-				${5:}
+				${4:}
 				}
 			});
 		}

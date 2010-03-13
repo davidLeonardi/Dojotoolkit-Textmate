@@ -3,17 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>.filter(function(item){
-	// highlight every paragraph
-	return (item.${1:property} == "${2:value");
-	})
-
-$0</string>
+	<string>.fadeIn({
+	${1:node}: "${1:nodeId}",
+	${2:duration}: ${3:1000}
+	}
+})$0</string>
 	<key>name</key>
-	<string>array.filter [JS filter]</string>
+	<string>dojo.fadein</string>
 	<key>tabTrigger</key>
-	<string>.filter</string>
+	<string>.fadein</string>
 	<key>uuid</key>
-	<string>615A65CE-A5D3-4248-8CA3-32DAEABB0960</string>
+	<string>2445B1A8-C8CA-4D0D-A0F6-8C305412D7FF</string>
 </dict>
 </plist>

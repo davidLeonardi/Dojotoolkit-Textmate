@@ -4,8 +4,8 @@
 <dict>
 	<key>content</key>
 	<string>.addContent({
-template: '&lt;${1:span}&gt;\${${3:content_var}}&lt;${2:span}&gt;',
-${4:content_var}: "${5:content}",
+template: '&lt;${1:span}&gt;\${${2:content_var}}&lt;${1:span}&gt;',
+${2:}: "${3:content}",
 });
 
 //dojo.require("dojo.string"); /* IF NOT PRESENT, ADD THIS! */

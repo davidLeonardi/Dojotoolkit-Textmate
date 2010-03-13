@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.animateProperty$(1:object}
+
+
+// summary: 
+//		Returns an animation that will transition the properties of
+//		node defined in `args` depending how they are defined in
+//		`args.properties`
+//
+// description:
+//		`dojo.animateProperty` is the foundation of most `dojo.fx`
+//		animations. It takes an object of "properties" corresponding to
+//		style properties, and animates them in parallel over a set
+//		duration.
+//	
+// example:
+//		A simple animation that changes the width of the specified node.
+//	|	dojo.animateProperty({ 
+//	|		node: "nodeId",
+//	|		properties: { width: 400 },
+//	|	}).play();
+//		Dojo figures out the start value for the width and converts the
+//		integer specified for the width to the more expressive but
+//		verbose form `{ width: { end: '400', units: 'px' } }` which you
+//		can also specify directly. Defaults to 'px' if ommitted.
+//
+// example:
+//		Animate width, height, and padding over 2 seconds... the
+//		pedantic way:
+//	|	dojo.animateProperty({ node: node, duration:2000,
+//	|		properties: {
+//	|			width: { start: '200', end: '400', units:"px" },
+//	|			height: { start:'200', end: '400', units:"px" },
+//	|			paddingTop: { start:'5', end:'50', units:"px" } 
+//	|		}
+//	|	}).play();
+//		Note 'paddingTop' is used over 'padding-top'. Multi-name CSS properties
+//		are written using "mixed case", as the hyphen is illegal as an object key.
+//		
+// example:
+//		Plug in a different easing function and register a callback for
+//		when the animation ends. Easing functions accept values between
+//		zero and one and return a value on that basis. In this case, an
+//		exponential-in curve.
+//	|	dojo.animateProperty({ 
+//	|		node: "nodeId",
+//	|		// dojo figures out the start value
+//	|		properties: { width: { end: 400 } },
+//	|		easing: function(n){
+//	|			return (n==0) ? 0 : Math.pow(2, 10 * (n - 1));
+//	|		},
+//	|		onEnd: function(node){
+//	|			// called when the animation finishes. The animation
+//	|			// target is passed to this function
+//	|		}
+//	|	}).play(500); // delay playing half a second
+//
+// example:
+//		Like all `dojo.Animation`s, animateProperty returns a handle to the
+//		Animation instance, which fires the events common to Dojo FX. Use `dojo.connect`
+//		to access these events outside of the Animation definiton:
+//	|	var anim = dojo.animateProperty({
+//	|		node:"someId",
+//	|		properties:{
+//	|			width:400, height:500
+//	|		}
+//	|	});
+//	|	dojo.connect(anim,"onEnd", function(){
+//	|		console.log("animation ended");
+//	|	});
+//	|	// play the animation now:
+//	|	anim.play();
+//
+// example:
+//		Each property can be a function whose return value is substituted along.
+//		Additionally, each measurement (eg: start, end) can be a function. The node
+//		reference is passed direcly to callbacks.
+//	|	dojo.animateProperty({
+//	|		node:"mine",
+//	|		properties:{
+//	|			height:function(node){
+//	|				// shrink this node by 50%
+//	|				return dojo.position(node).h / 2
+//	|			},
+//	|			width:{
+//	|				start:function(node){ return 100; },
+//	|				end:function(node){ return 200; }	
+//	|			}
+//	|		}
+//	|	}).play();
+//</string>
+	<key>name</key>
+	<string>dojo.animatepropery (documentation)</string>
+	<key>tabTrigger</key>
+	<string>.animatepropertydoc</string>
+	<key>uuid</key>
+	<string>DADDB0A7-E2CA-4764-8EB2-59D5CC940456</string>
+</dict>
+</plist>

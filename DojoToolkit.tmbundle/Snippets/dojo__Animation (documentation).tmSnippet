@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>._Animation(${object})
+
+		// duration: Integer
+		//		The time in milliseonds the animation will take to run
+		// 		default value: 350
+	
+	/*=====
+		// curve: dojo._Line|Array
+		//		A two element array of start and end values, or a `dojo._Line` instance to be
+		//		used in the Animation. 
+		curve: null,
+	
+		// easing: Function?
+		//		A Function to adjust the acceleration (or deceleration) of the progress 
+		//		across a dojo._Line
+		easing: null,
+	=====*/
+	
+		// repeat: Integer?
+		//		The number of times to loop the animation
+		//		default value:  0
+	
+		// rate: Integer?
+		//		the time in milliseconds to wait before advancing to next frame 
+		//		(used as a fps timer: 1000/rate = fps)
+		//defaultv value: 20 /* 50 fps */,
+	
+	/*===== 
+		// delay: Integer?
+		//		The time in milliseconds to wait before starting animation after it 
+		//		has been .play()'ed
+		delay: null,
+	
+		// beforeBegin: Event?
+		//		Synthetic event fired before a dojo.Animation begins playing (synchronous)
+		beforeBegin: null,
+	
+		// onBegin: Event?
+		//		Synthetic event fired as a dojo.Animation begins playing (useful?)
+		onBegin: null,
+	
+		// onAnimate: Event?
+		//		Synthetic event fired at each interval of a `dojo.Animation`
+		onAnimate: null,
+	
+		// onEnd: Event?
+		//		Synthetic event fired after the final frame of a `dojo.Animation`
+		onEnd: null,
+	
+		// onPlay: Event?
+		//		Synthetic event fired any time a `dojo.Animation` is play()'ed
+		onPlay: null,
+	
+		// onPause: Event?
+		//		Synthetic event fired when a `dojo.Animation` is paused
+		onPause: null,
+	
+		// onStop: Event
+		//		Synthetic event fires when a `dojo.Animation` is stopped
+		onStop: null,
+	
+	=====*/</string>
+	<key>name</key>
+	<string>dojo._Animation (documentation)</string>
+	<key>tabTrigger</key>
+	<string>._animationdoc</string>
+	<key>uuid</key>
+	<string>AA020741-9C88-48AF-BB67-2C8432728C28</string>
+</dict>
+</plist>

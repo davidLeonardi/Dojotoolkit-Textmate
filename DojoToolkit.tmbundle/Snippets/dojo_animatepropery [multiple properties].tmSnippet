@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.animateProperty({ node: ${1:node}, duration:${2:2000},
+	properties: {
+		${3:width: { start: '200', end: '400', units:"px" \},}
+		${4:height: { start:'200', end: '400', units:"px" \},}
+		${5:paddingTop: { start:'5', end:'50', units:"px" \}}
+	}
+})
+
+$0
+</string>
+	<key>name</key>
+	<string>dojo.animatepropery [multiple properties]</string>
+	<key>tabTrigger</key>
+	<string>.animateproperty</string>
+	<key>uuid</key>
+	<string>64F121A2-1EA2-43E5-BB30-7727159A7793</string>
+</dict>
+</plist>

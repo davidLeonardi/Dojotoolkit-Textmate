@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.animateProperty({ node: ${1:node}, duration:${2:2000},
+	properties: {
+		${3:width: { start: '200', end: '400', units:"px" \},}
+		${4:height: { start:'200', end: '400', units:"px" \},}
+		${5:paddingTop: { start:'5', end:'50', units:"px" \}}
+	},
+	${6:easing: function(n){
+		return (n==0) ? 0 : Math.pow(2, 10 * (n - 1)); //exponential-in curve. Please also try easing:[tab] if you have dojo.require'd easing.}
+	},
+	onEnd: function(node){
+		// called when the animation finishes. The animation
+		// target is passed to this function
+		${7:// do something}
+	}
+})
+
+$0
+
+</string>
+	<key>name</key>
+	<string>dojo.animatepropery [multiple properties, easing, onEnd handler] </string>
+	<key>tabTrigger</key>
+	<string>.animateproperty</string>
+	<key>uuid</key>
+	<string>6C5C326B-B2DB-4AD1-99AF-A211E564E8FF</string>
+</dict>
+</plist>

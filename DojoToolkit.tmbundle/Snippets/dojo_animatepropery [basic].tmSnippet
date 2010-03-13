@@ -3,17 +3,18 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>.filter(function(item){
-	// highlight every paragraph
-	return (item.${1:property} == "${2:value");
+	<string>.animateProperty({ 
+	node: "${1:nodeId}",
+	properties: { ${2:width}: ${3:400} }
 	})
 
-$0</string>
+$0
+</string>
 	<key>name</key>
-	<string>array.filter [JS filter]</string>
+	<string>dojo.animatepropery [basic]</string>
 	<key>tabTrigger</key>
-	<string>.filter</string>
+	<string>.animateproperty</string>
 	<key>uuid</key>
-	<string>615A65CE-A5D3-4248-8CA3-32DAEABB0960</string>
+	<string>880CDCAC-FE4D-4F1B-AE98-0CCF6FF40338</string>
 </dict>
 </plist>
