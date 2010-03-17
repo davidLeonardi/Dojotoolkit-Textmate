@@ -16,7 +16,7 @@ $0</string>
 	<key>name</key>
 	<string>dojo.removeattr (documentation)</string>
 	<key>tabTrigger</key>
-	<string>.removeattrdoc</string>
+	<string>.removeAttrdoc</string>
 	<key>uuid</key>
 	<string>72416829-C001-462A-93C1-6DC4424819A5</string>
 </dict>

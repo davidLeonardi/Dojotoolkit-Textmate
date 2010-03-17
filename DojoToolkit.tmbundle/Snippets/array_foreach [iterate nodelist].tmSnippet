@@ -3,13 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>.indexOf(${1:element});
-$0</string>
+	<string>.forEach(function(node, index, nodeList){
+	${1://do something with node, index, nodeList}
+});
+
+$0
+</string>
 	<key>name</key>
-	<string>array.indexof</string>
+	<string>array.foreach [iterate nodelist]</string>
 	<key>tabTrigger</key>
-	<string>.indexOf</string>
+	<string>.forEach</string>
 	<key>uuid</key>
-	<string>6A51F5E4-5132-48B3-B991-9C13C374BF8D</string>
+	<string>492BA6BC-D4F3-49A5-A77B-FF427D150619</string>
 </dict>
 </plist>

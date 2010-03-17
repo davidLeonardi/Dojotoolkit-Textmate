@@ -15,7 +15,7 @@
 	<key>name</key>
 	<string>dojo.foreach [item, index, array]</string>
 	<key>tabTrigger</key>
-	<string>.foreach</string>
+	<string>.forEach</string>
 	<key>uuid</key>
 	<string>3EA64597-D544-471F-85E8-BCEFA5081888</string>
 </dict>

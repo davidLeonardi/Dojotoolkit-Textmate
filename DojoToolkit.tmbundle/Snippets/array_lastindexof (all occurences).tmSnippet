@@ -14,7 +14,7 @@ while (${1:} != -1)
 	<key>name</key>
 	<string>array.lastindexof (all occurences)</string>
 	<key>tabTrigger</key>
-	<string>.lastindexof</string>
+	<string>.lastIndexOf</string>
 	<key>uuid</key>
 	<string>E4A5AB07-C6A1-4890-AE8E-9EEEF3ABE851</string>
 </dict>

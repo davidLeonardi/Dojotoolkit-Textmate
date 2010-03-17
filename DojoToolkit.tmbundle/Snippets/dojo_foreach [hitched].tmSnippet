@@ -10,7 +10,7 @@
 	<key>name</key>
 	<string>dojo.foreach [hitched]</string>
 	<key>tabTrigger</key>
-	<string>.foreach</string>
+	<string>.forEach</string>
 	<key>uuid</key>
 	<string>F523B235-7FC2-4E07-9F1A-358D167FD959</string>
 </dict>

@@ -20,7 +20,7 @@ $0</string>
 	<key>name</key>
 	<string>dojo.fadeout (documentation) </string>
 	<key>tabTrigger</key>
-	<string>.fadeoutdoc</string>
+	<string>.fadeOutdoc</string>
 	<key>uuid</key>
 	<string>829588E4-AE35-4AAF-B340-DE975DF01CE0</string>
 </dict>

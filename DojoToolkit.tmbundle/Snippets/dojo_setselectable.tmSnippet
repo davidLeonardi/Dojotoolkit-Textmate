@@ -9,7 +9,7 @@ $0</string>
 	<key>name</key>
 	<string>dojo.setselectable</string>
 	<key>tabTrigger</key>
-	<string>.setselectable</string>
+	<string>.setSelectable</string>
 	<key>uuid</key>
 	<string>AA3DF942-320D-47D5-9575-C4D766267FFF</string>
 </dict>

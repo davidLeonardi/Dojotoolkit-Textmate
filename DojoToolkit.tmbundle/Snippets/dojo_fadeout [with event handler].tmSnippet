@@ -13,7 +13,7 @@
 	<key>name</key>
 	<string>dojo.fadeout [with event handler]</string>
 	<key>tabTrigger</key>
-	<string>.fadeout</string>
+	<string>.fadeOut</string>
 	<key>uuid</key>
 	<string>2C3CD159-55F2-47ED-A717-515C46CB96EE</string>
 </dict>

@@ -96,7 +96,7 @@
 	<key>name</key>
 	<string>dojo.animatepropery (documentation)</string>
 	<key>tabTrigger</key>
-	<string>.animatepropertydoc</string>
+	<string>.animatePropertydoc</string>
 	<key>uuid</key>
 	<string>DADDB0A7-E2CA-4764-8EB2-59D5CC940456</string>
 </dict>

@@ -9,7 +9,7 @@ $0</string>
 	<key>name</key>
 	<string>array.foreach [scoped]</string>
 	<key>tabTrigger</key>
-	<string>.foreach</string>
+	<string>.forEach</string>
 	<key>uuid</key>
 	<string>98BFF903-36FE-4F25-8B41-08BCAC119567</string>
 </dict>

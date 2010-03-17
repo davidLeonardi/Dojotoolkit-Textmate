@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>.addContent({
+template: '&lt;${1:button} ${2:dojoType="dijit.form.Button}"&gt;&lt;/${1:button}&gt;',
+parse: true,
+${3:text}: "${4:Send}"
+});
+
+****
+ /* IF NOT PRESENT, ADD THIS! */
+//dojo.require("dojo.string");
+//dojo.require("dojo.parser");
+****</string>
+	<key>name</key>
+	<string>node.addcontent [with widget template]</string>
+	<key>tabTrigger</key>
+	<string>.addContent</string>
+	<key>uuid</key>
+	<string>BF4B5D89-186B-4891-86D3-B86E3CFF9067</string>
+</dict>
+</plist>

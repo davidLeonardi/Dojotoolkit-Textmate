@@ -19,7 +19,7 @@ $0</string>
 	<key>name</key>
 	<string>dojo.lastindexof (documentation)</string>
 	<key>tabTrigger</key>
-	<string>.lastindexofdoc</string>
+	<string>.lastIndexOfdoc</string>
 	<key>uuid</key>
 	<string>4008A5F4-B84B-4620-8338-49663BD4A9FC</string>
 </dict>

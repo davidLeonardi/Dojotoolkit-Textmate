@@ -7,7 +7,7 @@
 	<key>name</key>
 	<string>dojo.moduleUrl</string>
 	<key>tabTrigger</key>
-	<string>.moduleurl</string>
+	<string>.moduleUrl</string>
 	<key>uuid</key>
 	<string>269AD8E8-CAA2-4A49-898F-01A66D40F75E</string>
 </dict>

@@ -14,7 +14,7 @@ $0</string>
 	<key>name</key>
 	<string>array.indexof (all occurences)</string>
 	<key>tabTrigger</key>
-	<string>.indexof</string>
+	<string>.indexOf</string>
 	<key>uuid</key>
 	<string>A0AB8BC2-F94F-48A9-A390-657DB7C6BEFB</string>
 </dict>

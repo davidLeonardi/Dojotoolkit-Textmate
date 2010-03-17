@@ -9,7 +9,7 @@ $0</string>
 	<key>name</key>
 	<string>dojo.marginbox [getter]</string>
 	<key>tabTrigger</key>
-	<string>.marginbox</string>
+	<string>.marginBox</string>
 	<key>uuid</key>
 	<string>533BD99D-EAA6-4E31-A894-717EEA221A73</string>
 </dict>

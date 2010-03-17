@@ -35,7 +35,7 @@ $0</string>
 	<key>name</key>
 	<string>dojo.marginbox (documentation)</string>
 	<key>tabTrigger</key>
-	<string>.marginboxdoc</string>
+	<string>.marginBoxdoc</string>
 	<key>uuid</key>
 	<string>C202D306-2AEA-4E12-A7DB-A95EC02175AA</string>
 </dict>

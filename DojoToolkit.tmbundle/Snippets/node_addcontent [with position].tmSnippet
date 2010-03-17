@@ -9,7 +9,7 @@ $0</string>
 	<key>name</key>
 	<string>node.addcontent [with position]</string>
 	<key>tabTrigger</key>
-	<string>.addcontent</string>
+	<string>.addContent</string>
 	<key>uuid</key>
 	<string>753E53A4-99B0-48B1-8D1B-E0F996B6A9EA</string>
 </dict>

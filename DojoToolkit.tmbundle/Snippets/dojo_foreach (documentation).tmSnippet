@@ -64,7 +64,7 @@
 	<key>name</key>
 	<string>dojo.foreach (documentation)</string>
 	<key>tabTrigger</key>
-	<string>.foreachdoc</string>
+	<string>.forEachdoc</string>
 	<key>uuid</key>
 	<string>E377CD12-F2CA-4814-84B9-EDF1DAE9A878</string>
 </dict>

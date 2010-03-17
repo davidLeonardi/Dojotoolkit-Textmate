@@ -9,7 +9,7 @@ $0</string>
 	<key>name</key>
 	<string>dojo.contentbox [setter] </string>
 	<key>tabTrigger</key>
-	<string>.contentbox</string>
+	<string>.contentBox</string>
 	<key>uuid</key>
 	<string>E28803CA-7F1C-4A5A-BD6D-EED05779593D</string>
 </dict>

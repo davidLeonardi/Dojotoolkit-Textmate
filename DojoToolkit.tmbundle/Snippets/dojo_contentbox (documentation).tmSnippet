@@ -27,7 +27,7 @@ $0</string>
 	<key>name</key>
 	<string>dojo.contentbox (documentation)</string>
 	<key>tabTrigger</key>
-	<string>.contentboxdoc</string>
+	<string>.contentBoxdoc</string>
 	<key>uuid</key>
 	<string>A76470B6-446C-44C9-9FCD-F042C5287A2D</string>
 </dict>

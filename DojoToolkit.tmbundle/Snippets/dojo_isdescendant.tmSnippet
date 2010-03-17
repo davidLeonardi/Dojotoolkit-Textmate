@@ -10,7 +10,7 @@ $0
 	<key>name</key>
 	<string>dojo.isdescendant</string>
 	<key>tabTrigger</key>
-	<string>.isdescendant</string>
+	<string>.isDescendant</string>
 	<key>uuid</key>
 	<string>FF39729E-BA4A-4EF8-8148-E95904E070A2</string>
 </dict>

@@ -11,9 +11,9 @@ ${2:}: "${3:content}",
 //dojo.require("dojo.string"); /* IF NOT PRESENT, ADD THIS! */
 </string>
 	<key>name</key>
-	<string>node.addcontent [with template]</string>
+	<string>node.addcontent [with DTL template]</string>
 	<key>tabTrigger</key>
-	<string>.addcontent</string>
+	<string>.addContent</string>
 	<key>uuid</key>
 	<string>7876D015-E673-42DB-B895-B17D49708AC3</string>
 </dict>

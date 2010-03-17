@@ -30,7 +30,7 @@ $0
 	<key>name</key>
 	<string>dojo.animatepropery [multiple programmatic properties, easing, onEnd handler]  copy</string>
 	<key>tabTrigger</key>
-	<string>.animateproperty</string>
+	<string>.animateProperty</string>
 	<key>uuid</key>
 	<string>1C69F1B7-3B1F-411F-AC5F-7C2BBACF38A8</string>
 </dict>

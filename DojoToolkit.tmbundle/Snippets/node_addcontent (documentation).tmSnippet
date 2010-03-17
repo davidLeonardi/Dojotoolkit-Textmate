@@ -70,7 +70,7 @@ $0</string>
 	<key>name</key>
 	<string>node.addcontent (documentation)</string>
 	<key>tabTrigger</key>
-	<string>.addcontentdoc</string>
+	<string>.addContentdoc</string>
 	<key>uuid</key>
 	<string>81B55FE0-7E62-4733-953C-7424DE437EC2</string>
 </dict>

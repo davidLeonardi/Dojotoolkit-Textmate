@@ -23,7 +23,7 @@ $0</string>
 	<key>name</key>
 	<string>dojo.setselectable (documentation)</string>
 	<key>tabTrigger</key>
-	<string>.setselectabledoc</string>
+	<string>.setSelectabledoc</string>
 	<key>uuid</key>
 	<string>E55B6B74-EE18-4D9F-BCA5-0AFB1FBA10E3</string>
 </dict>

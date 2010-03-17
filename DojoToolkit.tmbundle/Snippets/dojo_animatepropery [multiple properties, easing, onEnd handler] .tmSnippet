@@ -25,7 +25,7 @@ $0
 	<key>name</key>
 	<string>dojo.animatepropery [multiple properties, easing, onEnd handler] </string>
 	<key>tabTrigger</key>
-	<string>.animateproperty</string>
+	<string>.animateProperty</string>
 	<key>uuid</key>
 	<string>6C5C326B-B2DB-4AD1-99AF-A211E564E8FF</string>
 </dict>

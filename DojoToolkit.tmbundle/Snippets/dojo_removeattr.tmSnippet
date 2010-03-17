@@ -9,7 +9,7 @@ $0</string>
 	<key>name</key>
 	<string>dojo.removeattr</string>
 	<key>tabTrigger</key>
-	<string>.removeattr</string>
+	<string>.removeAttr</string>
 	<key>uuid</key>
 	<string>4CDCA11C-EF89-4538-94EE-B3711B9452F4</string>
 </dict>

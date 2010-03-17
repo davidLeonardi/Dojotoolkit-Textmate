@@ -10,7 +10,7 @@ $0</string>
 	<key>name</key>
 	<string>dojo.indexof </string>
 	<key>tabTrigger</key>
-	<string>.indexof</string>
+	<string>.indexOf</string>
 	<key>uuid</key>
 	<string>2ED8C536-A055-4B84-A129-4D86ABDF98BA</string>
 </dict>

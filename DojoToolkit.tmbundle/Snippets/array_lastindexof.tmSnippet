@@ -10,7 +10,7 @@ $0
 	<key>name</key>
 	<string>array.lastindexof</string>
 	<key>tabTrigger</key>
-	<string>.lastindexof</string>
+	<string>.lastIndexOf</string>
 	<key>uuid</key>
 	<string>17D1C36E-7EFE-4881-A462-88FF9D2E1696</string>
 </dict>

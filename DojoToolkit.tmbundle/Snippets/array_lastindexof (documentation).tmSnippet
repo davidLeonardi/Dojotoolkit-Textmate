@@ -15,7 +15,7 @@ $0
 	<key>name</key>
 	<string>array.lastindexof (documentation)</string>
 	<key>tabTrigger</key>
-	<string>.lastindexof</string>
+	<string>.lastIndexOfdoc</string>
 	<key>uuid</key>
 	<string>21129770-5676-44A1-9441-BB6F234B3071</string>
 </dict>

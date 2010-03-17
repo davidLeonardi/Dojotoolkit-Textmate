@@ -72,7 +72,7 @@ $0
 	<key>name</key>
 	<string>array.indexof (documentation)</string>
 	<key>tabTrigger</key>
-	<string>.indexofdoc</string>
+	<string>.indexOfdoc</string>
 	<key>uuid</key>
 	<string>FD20C157-27D6-4678-A391-C251993822A0</string>
 </dict>

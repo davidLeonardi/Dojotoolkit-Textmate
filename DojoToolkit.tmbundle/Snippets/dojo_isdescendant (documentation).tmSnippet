@@ -18,7 +18,7 @@ $0</string>
 	<key>name</key>
 	<string>dojo.isdescendant (documentation)</string>
 	<key>tabTrigger</key>
-	<string>.isdescendantdoc</string>
+	<string>.isDescendantdoc</string>
 	<key>uuid</key>
 	<string>5ABF3DA6-D880-450D-820E-090173B7FCBC</string>
 </dict>

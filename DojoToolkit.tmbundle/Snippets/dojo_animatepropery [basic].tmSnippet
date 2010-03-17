@@ -13,7 +13,7 @@ $0
 	<key>name</key>
 	<string>dojo.animatepropery [basic]</string>
 	<key>tabTrigger</key>
-	<string>.animateproperty</string>
+	<string>.animateProperty</string>
 	<key>uuid</key>
 	<string>880CDCAC-FE4D-4F1B-AE98-0CCF6FF40338</string>
 </dict>

@@ -11,7 +11,7 @@
 	<key>name</key>
 	<string>dojo.fadeout </string>
 	<key>tabTrigger</key>
-	<string>.fadeout</string>
+	<string>.fadeOut</string>
 	<key>uuid</key>
 	<string>4B636475-9878-4D65-8C48-F7121842A32F</string>
 </dict>
